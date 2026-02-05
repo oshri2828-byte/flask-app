@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Hello Message
-        run: echo "Hello from GitHub Actions!"
-
-      - name: Print ACOTR
-        run: echo "github.com/acotr"
+      - name: Print a message
+        run: |
+          echo "Hello, this is the first workflow!"
+          echo "Actor: ${{ github.actor }}"
