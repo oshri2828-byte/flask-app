@@ -1,0 +1,17 @@
+name: First Workflow - Print Messages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello Message
+        run: echo "Hello from GitHub Actions!"
+
+      - name: Print ACOTR
+        run: echo "ACOTR"
