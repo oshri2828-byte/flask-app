@@ -14,4 +14,4 @@ jobs:
         run: echo "Hello from GitHub Actions!"
 
       - name: Print ACOTR
-        run: echo "ACOTR"
+        run: echo "github.com/acotr"
