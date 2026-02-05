@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.get("/")
 def home():
     return jsonify(
-        message="Hello from Flask in Docker 🚀",
+        message="Hello from Flask app",
         status="ok"
     )
 
