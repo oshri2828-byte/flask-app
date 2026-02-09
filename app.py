@@ -9,6 +9,14 @@ def home():
         status="ok"
     )
 
+
+@app.get("/AI agent")
+def home():
+    return jsonify(
+        message="Hello from AI",
+        status="ok"
+    )
+
 @app.get("/health")
 def health():
     return "OK", 200
